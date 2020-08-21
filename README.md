@@ -1,5 +1,14 @@
 # vue-project
 
+## 参考文献
+
+[vue学习--初始篇](https://cloud.tencent.com/developer/article/1020337?from=10680)
+
+[vue学习--进阶篇](https://cloud.tencent.com/developer/article/1020338?from=10680)
+
+[vue学习--毕业篇](https://cloud.tencent.com/developer/article/1020416)
+
+
 > A Vue.js project
 
 ## Build Setup
