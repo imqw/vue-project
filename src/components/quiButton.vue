@@ -1,5 +1,6 @@
 <template>
   <button class="qui-btn" v-on:click="btnClickEvent">
+    <slot name="icon"></slot><!--重点在这里-->
     <span>{{msg}}</span>
   </button>
 </template>
@@ -14,7 +15,9 @@ export default {
   },
   methods: {
     btnClickEvent: function () {
-      alert('先弹出默认的文案')
+      /**
+       * 子组件调用父类方法 $emit
+       */
       this.$emit('btnClickEvent')
     }
   }

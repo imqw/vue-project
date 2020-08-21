@@ -1,7 +1,10 @@
 <template>
   <div id="pageQuiButton">
     <!--使用-->
-    <qui-btn v-on:btnClickEvent="doSth"  msg="我可以点击"></qui-btn>
+    <qui-btn v-on:btnClickEvent="doSth1"  msg="确定" class="with-icon">
+      <img slot="icon" class="ico" src="../assets/logo.png" />
+    </qui-btn>
+    <qui-btn v-on:btnClickEvent="doSth2"  msg="取消"></qui-btn>
   </div>
 </template>
 
@@ -13,8 +16,11 @@ export default {
     'qui-btn': quiBtn
   },
   methods: {
-    doSth: function () {
-      alert('你点击了组件的click:btnClickEvent')
+    doSth1: function () {
+      alert('111')
+    },
+    doSth2 () {
+      alert('222')
     }
   }
 }
