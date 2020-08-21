@@ -14,7 +14,7 @@ export default {
   components: {
     'qui-list': quiList
   },
-  methods:{
+  methods: {
     test: function () {
       alert('我是自定义的方法')
     }
